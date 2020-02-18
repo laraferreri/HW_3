@@ -1,0 +1,100 @@
+*{
+  box-sizing: border-box;
+}
+
+.body{
+  margin-top: 12px;
+  margin: 0px;
+  padding: 5px;
+}
+
+.heroTitle{
+  text-align: center;
+  font-size: 35pt;
+}
+
+.mainContainer{
+  padding: 120px;
+}
+
+.navBar{
+  font-size: 25pt;
+  width: 100%;
+  text-align: center;
+  margin: 35px;
+  padding: 0;
+}
+
+.firstp{
+  font-size: 30pt;
+  text-align: center;
+}
+
+.p{
+  text-align: center;
+  font-size: 25pt;
+}
+
+/* .gallery{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 1px;
+  margin: auto;
+} */
+
+.gallery{
+  display: grid;
+  /* NOTE:
+  Creates an even 5 column grid
+  */
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  grid-gap: 1px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.imggrid{
+
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+
+}
+
+.selfluv{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.p1{
+  font-size: 30pt;
+  text-align: justify;
+}
+
+.bp{
+  font-size: 20pt;
+  border-style:double;
+  padding: 5px;
+}
+
+.p2{
+  position: fixed;
+  bottom: 255px;
+  font-size: 30pt;
+  text-align: center;
+
+}
+
+.heart{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
