@@ -1,39 +1,47 @@
-*{
+* {
   box-sizing: border-box;
 }
 
-.body{
-  margin-top: 12px;
+
+.body {
+  margin-top: 5px;
   margin: 0px;
   padding: 5px;
 }
 
-.heroTitle{
+.pageTitle {
   text-align: center;
   font-size: 35pt;
 }
 
-.mainContainer{
-  padding: 120px;
+.homeImage {
+  display: flex;
+  justify-content: center;
 }
 
-.navBar{
-  font-size: 25pt;
-  width: 100%;
-  text-align: center;
-  margin: 35px;
-  padding: 0;
+.mainContainer {
+  padding: 5px;
+  font-family: Apple Chancery, cursive;
 }
 
-.firstp{
-  font-size: 30pt;
-  text-align: center;
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  margin: 15px;
 }
 
-.p{
+.h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  font-size: 25pt;
+  font-size: 3em;
 }
+
+
 
 /* .gallery{
   display: grid;
@@ -42,8 +50,7 @@
   grid-gap: 1px;
   margin: auto;
 } */
-
-.gallery{
+.gallery {
   display: grid;
   /* NOTE:
   Creates an even 5 column grid
@@ -54,47 +61,67 @@
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-
-
 }
 
-.imggrid{
-
+.imggrid {
   width: 250px;
   height: 250px;
   object-fit: cover;
-
 }
 
-.selfluv{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+
+.selfluv {
+  display: flex;
+  justify-content: center;
 }
 
-.p1{
+.p1 {
+  display: flex;
   font-size: 30pt;
-  text-align: justify;
-}
-
-.bp{
-  font-size: 20pt;
-  border-style:double;
-  padding: 5px;
-}
-
-.p2{
-  position: fixed;
-  bottom: 255px;
-  font-size: 30pt;
+  justify-content: center;
+  align-content: center;
+  padding: 50px;
+  font-size: em;
   text-align: center;
+}
+
+.bpContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bpBorder{
+  border-style: double;
+  border-radius: 25px;
+  padding: 10px;
+  width: 1200px;
+  height: 1000px;
+}
+
+.bp {
+  display: flex;
+  font-weight: bold;
+  flex-direction: column;
+  text-align: center;
+  width: 1100px;
+  font-size: 20pt;
+  padding: 20px;
 
 }
 
-.heart{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.heart {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
+
+.p2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  font-size: 3em;
+  text-align: center;
+  padding: 15px
 }
